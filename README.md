@@ -1,13 +1,17 @@
-Plan :-
-Weather App - Location - Local Weather - Local Time - Type of Weather - Type of Icon based on Weather type - Search Any City - Temperature - Humidity - Visibility - Wind Speed
+- complete Forcast working
+- set Font familys
+  - Oxygen
+  - Roboto
+- font size increase
+- Host on Vercel
+- Complete the README file
+- Send a Message to Gaurav after completing resume
 
-### Plan
+### Resume Pending things
 
-- Complete the CurrentLocation first
+- Complete Airbnb Search
+- Complete the Notes App
 
-  - Make a hook to fetch Weather Details
-  - work on Icon Details Later
-  - Style the Current Location Data
+### Features to be Added soon
 
-- ForeCast Div
-  - needs Icon and main Weather => Complete the Icon Part first
+- AutoComplete Search feature
