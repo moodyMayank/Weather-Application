@@ -15,3 +15,7 @@
 ### Features to be Added soon
 
 - AutoComplete Search feature
+
+  // sunrise: undefined,
+  // sunset: undefined,
+  // errorMsg: undefined,
