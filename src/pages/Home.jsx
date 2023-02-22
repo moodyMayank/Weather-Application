@@ -33,6 +33,8 @@ const Home = () => {
         humidity: data.main.humidity,
         main: data.weather[0].main,
         country: data.sys.country,
+        visibility: data.visibility,
+        windSpeed: data.wind.speed,
         icon: Icons[data.weather[0].main]
           ? Icons[data.weather[0].main]
           : "CLEAR_DAY",

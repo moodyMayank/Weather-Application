@@ -13,8 +13,8 @@ const DataProvider = ({ children }) => {
     humidity: undefined,
     description: undefined,
     icon: "CLEAR_DAY",
-    // sunrise: undefined,
-    // sunset: undefined,
+    visibility: undefined,
+    windSpeed: undefined,
     // errorMsg: undefined,
   });
 
