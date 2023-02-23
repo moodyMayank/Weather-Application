@@ -1,7 +1,7 @@
 # Weather Application 
 Weather Application which picks the current location and also we can search any city in it.
 
-[Live]()
+[Live Demo](https://weather-application-snowy.vercel.app/)
 
 ## Tech Stack 
 - ReactJS 
@@ -16,7 +16,8 @@ Weather Application which picks the current location and also we can search any 
 - Interactive and Mobile Responsive UI built using Tailwind CSS.
 
 ## ScreenShot
-![Weather Application](https://user-images.githubusercontent.com/100838996/220821334-cedf1463-1d3b-443d-b3ac-8158445fc200.png)
+![Weather Application](https://user-images.githubusercontent.com/100838996/220824856-01eff2ff-723b-4840-a293-f2980876e202.png)
+
 
 ## Run Project Locally 
 
