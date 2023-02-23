@@ -3,6 +3,9 @@ Weather Application which picks the current location and also we can search any 
 
 [Live Demo](https://weather-application-snowy.vercel.app/)
 
+## ScreenShot
+![Weather Application](https://user-images.githubusercontent.com/100838996/220824856-01eff2ff-723b-4840-a293-f2980876e202.png)
+
 ## Tech Stack 
 - ReactJS 
 - Taiwlind CSS 
@@ -15,8 +18,6 @@ Weather Application which picks the current location and also we can search any 
 - It shows city , country , temperature in Celsius and fahrenheit, humidity, visiblity, wind speed, Weather type.  
 - Interactive and Mobile Responsive UI built using Tailwind CSS.
 
-## ScreenShot
-![Weather Application](https://user-images.githubusercontent.com/100838996/220824856-01eff2ff-723b-4840-a293-f2980876e202.png)
 
 
 ## Run Project Locally 
