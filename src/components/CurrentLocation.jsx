@@ -6,7 +6,6 @@ import { DataContext } from "../context/DataProvider";
 
 const CurrentLocation = () => {
   const { weatherData } = useContext(DataContext);
-  console.log(weatherData);
   return (
     <div className="relative h-[600px] ">
       <div className="relative w-[100%] h-[600px] ">

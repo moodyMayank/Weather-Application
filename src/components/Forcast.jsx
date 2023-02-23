@@ -16,13 +16,10 @@ const Forcast = () => {
   const [query, setQuery] = useState("");
   const [error, setError] = useState("");
 
-  const displayModel = () => {};
-
   const search = () => {
     fetch(`${apiKey.base}weather?q=${query}&units=metric&APPID=${apiKey.key}`)
       .then((response) => response.json())
       .then((data) => {
-        // console.log(data);
         setWeatherData({
           city: data.name,
           temperatureC: Math.round(data.main.temp),

@@ -22,8 +22,6 @@ const Home = () => {
         `${apiKey.base}weather?lat=${lat}&lon=${lon}&units=metric&APPID=${apiKey.key}`
       );
       const data = await apiCall.json();
-      console.log(data);
-      console.log(setWeatherData);
       setWeatherData({
         lat: lat,
         lon: lon,
@@ -58,12 +56,9 @@ const Home = () => {
   };
 
   useEffect(() => {
-    console.log("called");
     userCurrentLocation();
   }, []);
 
-  console.log(weatherData);
-  console.log(weatherData.temperatureC);
   if (!weatherData.temperatureC) return <NoLocation />;
   return (
     <div className="mt-12 mx-auto h-[93vh]">
